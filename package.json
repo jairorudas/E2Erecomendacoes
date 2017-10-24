@@ -1,0 +1,23 @@
+{
+  "name": "recomendacao",
+  "version": "1.0.0",
+  "main": "cypress/intgration/recomendacao_spec.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^1.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairorudas/E2Erecomendacoes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jairorudas/E2Erecomendacoes/issues"
+  },
+  "homepage": "https://github.com/jairorudas/E2Erecomendacoes#readme",
+  "description": ""
+}
