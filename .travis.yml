@@ -14,4 +14,4 @@ notifications:
     - eduardo.costa@usereserva.com.br
     - daniel.chada@usereserva.com.br
   on_success: never
-  on_failure: always
+  on_failure: always 
