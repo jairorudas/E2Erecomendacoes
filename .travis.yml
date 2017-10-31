@@ -5,11 +5,14 @@ defaulbefore_script:
   - npm install
   - npm install cypress --save-dev
 script: cypress run
-
 notifications:
   slack: servicecenterteam:ZbSk5pFAmhGflePGoOU6T88A
+  on_failure: always
+  on_success: always
+
+notifications:
   email:
     - eduardo.costa@usereserva.com.br
-    
-  on_success: always
+    - daniel.chada@usereserva.com.br
+  on_success: never
   on_failure: always 
